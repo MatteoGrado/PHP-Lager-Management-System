@@ -1,0 +1,19 @@
+{
+    "name": "dell/php-lms",
+    "type": "no",
+    "autoload": {
+        "psr-4": {
+            "App\\PHPLMS\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MatteoGrado",
+            "email": "matteogrado181003@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-pdo": "*"
+    }
+}
