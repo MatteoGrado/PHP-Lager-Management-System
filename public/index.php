@@ -33,7 +33,7 @@
         </div>
         <div class="input-group">
             <button type="submit">Login</button>
-            <a href="#" class="register-link">Noch kein Konto?</a>
+            <a href="../content/register/register.php" class="register-link">Noch kein Konto?</a>
         </div>
     </form>
 </div>

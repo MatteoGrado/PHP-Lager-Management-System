@@ -3,7 +3,7 @@
     namespace App\PHPLMS\src\Models;
 
     class DB {
-        private $con;
+        public $con;
         public function __construct($host, $user, $pwd, $dbName) {
             $this->connect($host, $user, $pwd, $dbName);
         }

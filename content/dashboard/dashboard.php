@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,6 +12,11 @@
     <link rel="stylesheet" href="../../public/assets/css/dashboard/style.css">
 </head>
 <body>
-
+    <button type="submit" class="btn0">Logout</button>
+    <h1 class="header">Lager Durchsuchen:</h1>
+    <div class="storage-search">
+        <input type="search" class="search" name="product_num">
+        <button type="submit" class="btn1">Suchen</button>
+    </div>
 </body>
 </html>
