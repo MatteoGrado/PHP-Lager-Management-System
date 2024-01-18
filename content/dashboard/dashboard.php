@@ -1,5 +1,11 @@
 <?php
+    use App\PHPLMS\src\Models\DB;
+    use App\PHPLMS\src\Controller\DashboardController;
 
+    $searchfunction = new DashboardController();
+    if (isset($_POST['submit'])) {
+        $searchfunction->search();
+    }
 ?>
 <!doctype html>
 <html lang="en">
