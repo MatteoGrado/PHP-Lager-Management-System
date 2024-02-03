@@ -1,6 +1,6 @@
 # PHP-Lager-Management-System
-  Author: MatteoGrado
-  MIT_LICENSE
+- Author: MatteoGrado
+- MIT_LICENSE
 
 # Discription:
 The PHP-Lager-Managment-System meens in English PHP-Storage-Managment-System. The short call for this is PHP-LMS for the Germans and for the English PHP-SMS.
