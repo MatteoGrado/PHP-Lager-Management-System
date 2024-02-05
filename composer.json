@@ -1,5 +1,5 @@
 {
-    "name": "dell/php-lms",
+    "name": "matteo/php-lms",
     "type": "no",
     "autoload": {
         "psr-4": {
@@ -9,11 +9,14 @@
     "authors": [
         {
             "name": "MatteoGrado",
-            "email": "matteogrado181003@gmail.com"
+            "email": "matteogrado181003@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "monolog/monolog": "^3.5",
+        "psr/log": "^3.0"
     }
 }

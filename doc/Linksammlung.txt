@@ -1,0 +1,10 @@
+Barcode Generator & Reader API for PHP:
+https://blog.aspose.com/de/barcode/php-barcode-generator-reader-and-scanner-api/
+
+------------------------------------------------------------------------------------------------------------------------
+
+Barcode Generator & Reader for PHP:
+https://medium.com/@chensformers/inventory-management-system-with-barcode-scanner-in-php-a-definitive-guide-d18fdc165511
+
+------------------------------------------------------------------------------------------------------------------------
+
