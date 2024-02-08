@@ -1,17 +1,16 @@
 <?php
 
-    use App\PHPLMS\src\Controller\UserController;
-    use App\PHPLMS\src\Models\DB;
+    use App\PHPLMS\src\Controller;
 
-    include '../src/Controller/UserController.php';
+include '../src/Controller/UserController.php';
     include '../src/Models/DB.php';
 
-    $UserController = new UserController();
+    $UserController = new Controller\UserController();
     if (isset($_POST['submit'])) {
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        $UserController->Controller();
+        $UserController->controller();
         $UserController->login($username, $password);
     }
 ?>
