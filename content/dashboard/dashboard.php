@@ -1,11 +1,5 @@
 <?php
-    use App\PHPLMS\src\Models\DB;
-    use App\CDN\src\Controller\DashboardController;
 
-    $searchfunction = new DashboardController();
-    if (isset($_POST['submit'])) {
-        $searchfunction->search();
-    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -18,11 +12,18 @@
     <link rel="stylesheet" href="../../public/assets/css/dashboard/style.css">
 </head>
 <body>
-    <button type="submit" class="btn0">Logout</button>
-    <h1 class="header">Lager Durchsuchen:</h1>
-    <div class="storage-search">
-        <input type="search" class="search" name="product_num">
-        <button type="submit" class="btn1">Suchen</button>
+    <nav class="navbar">
+        <h1 class="header">
+            <a href="#">Lager Übersicht</a>
+        </h1>
+        <div class="button-bar">
+            <button type="button" class="btn0">Scannen</button>
+            <button type="button" class="btn1">Codes Erstellen</button>
+            <button type="button" class="btn2">Logout</button>
+        </div>
+    </nav>
+    <div class="table">
+
     </div>
 </body>
 </html>
