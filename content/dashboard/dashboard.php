@@ -1,5 +1,12 @@
 <?php
+    // TODO Rewrite redirect method that we don't have any issues
+    // Link: https://github.com/picqer/php-barcode-generator
 
+    $redirect = new \App\PHPLMS\src\Controller\BarcodeController();
+    if (isset($_POST['generate'])) {
+
+        $redirect->redirect($url);
+    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -18,7 +25,7 @@
         </h1>
         <div class="button-bar">
             <button type="button" class="btn0">Scannen</button>
-            <button type="button" class="btn1">Codes Erstellen</button>
+            <button type="button" name="generate" class="btn1">Codes Erstellen</button>
             <button type="button" class="btn2">Logout</button>
         </div>
     </nav>
