@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+}
+
+.header {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.create-header {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lab0 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.inp0 {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.lab1 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: -60px;
+    margin-left: 250px;
+}
+.inp1 {
+    display: flex;
+    width: 80px;
+    height: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+
+
+.btn0 {
+    display: flex;
+    width: 150px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+

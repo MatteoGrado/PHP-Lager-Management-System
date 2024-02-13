@@ -20,7 +20,7 @@
         </div>
     </nav>
     <div class="table">
-
+        //Build in overview of data in a table
     </div>
 </body>
 </html>
