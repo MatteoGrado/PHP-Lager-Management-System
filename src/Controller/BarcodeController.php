@@ -5,12 +5,14 @@
     use Picqer\Barcode\BarcodeGeneratorJPG;
 
     class BarcodeController {
-        public function redirect($url) {
-            header("Location: $url");
-            exit();
-        }
         public function generate() {
+
+
+            $sql = "SELECT * FROM products";
+
+
             $generator = new BarcodeGeneratorJPG();
+
         }
         public function read() {
 

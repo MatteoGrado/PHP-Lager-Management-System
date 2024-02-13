@@ -1,5 +1,5 @@
 {
-    "name": "matteo/php-lager-managment-system",
+    "name": "matteo.grado/php-lager-management-system",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -10,19 +10,19 @@
     "authors": [
         {
             "name": "Matteo Grado",
-            "email": "Matteo.Grado@nikoit.de",
+            "email": "Matteo.Grado.23@gmail.com",
             "role": "BackEnd Developer"
         }
     ],
     "minimum-stability": "stable",
     "require": {
+        "monolog/monolog": "^2.9",
+        "psr/log": "^1.1",
         "php-kit/ext-pdo": "^1.1",
-        "psr/log": "^3.0",
-        "monolog/monolog": "^3.5",
         "ext-pdo": "*",
         "picqer/php-barcode-generator": "^2.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^11.0"
+        "phpunit/phpunit": "^9.6"
     }
 }
