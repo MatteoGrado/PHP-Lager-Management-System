@@ -9,7 +9,7 @@
     class LogController {
         public function logger() {
             $log = new Logger('errors');
-            $log->pushHandler(new StreamHandler('/bin/errors.log', Level::Warning));
+            $log->pushHandler(new StreamHandler('/Logs/errors.log', Level::Warning));
             // TODO I have to check out how to include in the complete Project!
         }
     }

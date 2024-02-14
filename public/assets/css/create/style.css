@@ -62,7 +62,7 @@ body {
 .inp1 {
     display: flex;
     width: 80px;
-    height: 20px;
+    height: 25px;
     font-family: Arial, sans-serif;
     font-size: 14pt;
     font-weight: bolder;
@@ -70,7 +70,62 @@ body {
     margin-left: 250px;
 }
 
+.lab2 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.inp2 {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
+.lab02 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: -60px;
+    margin-left: 250px;
+}
+.inp02 {
+    display: flex;
+    width: 80px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.lab3 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.inp3 {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
 .btn0 {
     display: flex;
@@ -86,5 +141,94 @@ body {
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
+.img1 {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+
+.border-v1 {
+    border-left: 10px solid black;
+    height: 1000px;
+    margin-left: 50%;
+    margin-top: -650px;
+}
+
+.border-h1 {
+    border: 5px solid black;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.btn1 {
+    display: flex;
+    width: 150px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.btn2 {
+    display: flex;
+    width: 300px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: -25px;
+}
+
+.table {
+    margin-left: 1200px;
+    margin-top: -900px;
+    border-right: 2px solid black;
+}
+.table tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table th {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 100px;
+    justify-content: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.table td {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid black;
+    margin-top: 5px;
+}

@@ -20,7 +20,8 @@
         "psr/log": "^1.1",
         "php-kit/ext-pdo": "^1.1",
         "ext-pdo": "*",
-        "picqer/php-barcode-generator": "^2.4"
+        "picqer/php-barcode-generator": "^2.4",
+        "setasign/fpdf": "^1.8"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6"
