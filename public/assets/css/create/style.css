@@ -36,170 +36,130 @@ body {
 .lab0 {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
+    font-size: 12pt;
+    font-weight: normal;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .inp0 {
     display: flex;
     width: 200px;
     height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
+    font-size: 12pt;
+    font-weight: normal;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .lab1 {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
-    margin-top: -60px;
-    margin-left: 250px;
+    font-size: 12pt;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 .inp1 {
     display: flex;
-    width: 80px;
+    width: 200px;
     height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
+    font-size: 12pt;
+    font-weight: normal;
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 50px;
 }
-
 .lab2 {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
-    margin-top: 50px;
-    margin-left: 20px;
-}
-.inp2 {
-    display: flex;
-    width: 200px;
-    height: 25px;
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
+    font-size: 12pt;
+    font-weight: normal;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
-.lab02 {
+.barcode-select-type {
     display: flex;
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
-    margin-top: -60px;
-    margin-left: 250px;
-}
-.inp02 {
-    display: flex;
-    width: 80px;
+    width: 207px;
     height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
+    font-size: 12pt;
+    font-weight: normal;
     margin-top: 10px;
-    margin-left: 250px;
-}
-
-.lab3 {
-    display: flex;
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
-    margin-top: 50px;
-    margin-left: 20px;
-}
-.inp3 {
-    display: flex;
-    width: 200px;
-    height: 25px;
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bolder;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .btn0 {
     display: flex;
-    width: 150px;
+    width: 100px;
     height: 25px;
     justify-content: center;
     align-items: center;
     background-color: blue;
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: bold;
-    border: none;
+    border: 2px solid dodgerblue;
     border-radius: 2px;
     cursor: pointer;
-    margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 160px;
+    margin-top: -130px;
 }
 
-.img1 {
+.img-holder {
     display: flex;
-    width: 300px;
+    width: 500px;
+    height: 300px;
+    background-color: lightgray;
+    margin-left: 340px;
+    margin-top: -150px;
+}
+
+.barcode-image {
+    display: flex;
+    width: 400px;
     height: 200px;
-    margin-left: 400px;
-    margin-top: -200px;
+    margin: 50px 50px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: forestgreen;
+    border: 2px solid lightgreen;
+    color: white;
+    margin-top: 230px;
+    margin-left: -450px;
+}
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: darkblue;
+    border: 2px solid blue;
+    color: white;
+    margin-top: 265px;
+    margin-left: -400px;
 }
 
 .border-v1 {
     border-left: 10px solid black;
     height: 1000px;
+    width: 5px;
     margin-left: 50%;
-    margin-top: -650px;
-}
-
-.border-h1 {
-    border: 5px solid black;
-    width: 50%;
-    margin-top: 50px;
-}
-
-.btn1 {
-    display: flex;
-    width: 150px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-.btn2 {
-    display: flex;
-    width: 300px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-left: 250px;
-    margin-top: -25px;
+    margin-top: -343px;
 }
 
 .table {
@@ -207,6 +167,7 @@ body {
     margin-top: -900px;
     border-right: 2px solid black;
 }
+
 .table tr {
     display: flex;
     justify-content: center;
