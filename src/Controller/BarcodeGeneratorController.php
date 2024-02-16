@@ -6,7 +6,8 @@
     use Picqer\Barcode\BarcodeGeneratorJPG;
 
     class BarcodeGeneratorController {
-        public function getBarcode() {
+        public function getBarcode(): void {
+            $generator = new BarcodeGeneratorJPG();
 
         }
     }
