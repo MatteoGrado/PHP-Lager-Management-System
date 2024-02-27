@@ -15,7 +15,7 @@
         </h1>
         <div class="button-bar">
             <a href="#" class="btn0">CScannen</a>
-            <a href="../creater/create.php" class="btn1">Codes Erstellen</a>
+            <a href="../generate/create.php" class="btn1">Codes Erstellen</a>
             <a href="#" class="btn2">Logout</a>
         </div>
     </nav>

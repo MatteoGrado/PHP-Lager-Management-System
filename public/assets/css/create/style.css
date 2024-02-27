@@ -1,195 +1,152 @@
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
 }
 
 .navbar {
     display: flex;
-    flex-direction: row;
     width: 100%;
     height: 80px;
-    background-color: #333;
+    background-color: black;
 }
 
 .header {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 20pt;
+    font-size: 25pt;
     font-weight: bolder;
-    margin-top: 20px;
-    padding-left: 20px;
-}
-.header a {
     text-decoration: none;
     color: white;
 }
 
-.create-header {
-    display: flex;
-    font-family: Arial, sans-serif;
-    font-size: 20pt;
-    font-weight: bolder;
-    margin-top: 20px;
+.header a {
+    text-decoration: none;
+    color: white;
+    margin-top: -10px;
     margin-left: 20px;
+}
+
+.btn0-logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 130px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 20%;
 }
 
 .lab0 {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: normal;
-    margin-top: 50px;
-    margin-left: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 .inp0 {
     display: flex;
-    width: 200px;
+    width: 250px;
     height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-left: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 2px;
 }
 .lab1 {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-left: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 1%;
 }
 .inp1 {
     display: flex;
-    width: 200px;
+    width: 250px;
     height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-left: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 2px;
 }
 .lab2 {
     display: flex;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-left: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 1%;
 }
-
 .barcode-select-type {
     display: flex;
-    width: 207px;
+    width: 250px;
     height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-
-.btn0 {
-    display: flex;
-    width: 100px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: bold;
-    border: 2px solid dodgerblue;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-left: 160px;
-    margin-top: -130px;
-}
-
-.img-holder {
-    display: flex;
-    width: 500px;
-    height: 300px;
-    background-color: lightgray;
-    margin-left: 340px;
-    margin-top: -150px;
-}
-
-.barcode-image {
-    display: flex;
-    width: 400px;
-    height: 200px;
-    margin: 50px 50px;
+    margin-left: 10%;
+    margin-top: 2px;
 }
 
 .btn1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 30px;
-    font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: bold;
-    background-color: forestgreen;
-    border: 2px solid lightgreen;
     color: white;
-    margin-top: 230px;
-    margin-left: -450px;
+    background-color: blue;
+    width: 250px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 13pt;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 10%;
 }
 .btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 30px;
+    color: black;
+    background-color: red;
+    width: 250px;
+    height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: bold;
-    background-color: darkblue;
-    border: 2px solid blue;
-    color: white;
-    margin-top: 265px;
-    margin-left: -400px;
+    font-size: 13pt;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 10%;
 }
-
-.border-v1 {
-    border-left: 10px solid black;
-    height: 1000px;
-    width: 5px;
-    margin-left: 50%;
-    margin-top: -343px;
-}
-
-.table {
-    margin-left: 1200px;
-    margin-top: -900px;
-    border-right: 2px solid black;
-}
-
-.table tr {
+.btn3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.table th {
+    color: black;
+    background-color: green;
+    width: 250px;
+    height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    width: 100px;
-    justify-content: center;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    font-size: 13pt;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 10%;
 }
-.table td {
-    font-family: Arial, sans-serif;
-    font-size: 12pt;
-    font-weight: bold;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-left: 2px solid black;
-    margin-top: 5px;
-}
+
