@@ -1,5 +1,15 @@
 <?php
 
+    use App\PHPLMS\src\Controller\BarcodeGeneratorController;
+    use App\PHPLMS\src\Models\DB;
+
+    if (isset($_POST['submit'])) {
+        if (!empty('product_num') && !empty('barcode_type')) {
+            $product_num = $_POST['product_num'];
+            $barcode_type = $_POST['barcode_type'];
+            //Call the Barcode Generator
+        }
+    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,12 +30,12 @@
     </nav>
     <form class="barcode-form" method="POST">
         <label class="lab0">Produkt Nummer:</label>
-        <input class="inp0" type="number" name="product_num" required>
+            <input class="inp0" type="number" name="product_num" required>
         <label class="lab1">Beschriftung:</label>
-        <input class="inp1" type="text">
+            <input class="inp1" type="text">
         <label class="lab2">Barcode-Typ:</label>
         <select class="barcode-select-type">
-            <option value="C128">Code 128</option>
+            <option value="C128" name="barcode_type">Code 128</option>
             <option value="C128A">Code 128 A</option>
             <option value="C128B">Code 128 B</option>
             <option value="C39">Code 39</option>

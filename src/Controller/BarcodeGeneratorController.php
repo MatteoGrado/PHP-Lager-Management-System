@@ -22,9 +22,10 @@
         public function getBarcode($product_num, $product_type) {
             if ($product_num == 'product_num' && $barcode_type = 'barcode_type') {
                 $generator = new BarcodeGeneratorJPG();
-                $generator->getBarcode();
+                $generator->getBarcode($product_num, $generator::TYPE_CODE_128);
                 return $generator;
+            } else {
+                return false;
             }
-            return false;
         }
     }
