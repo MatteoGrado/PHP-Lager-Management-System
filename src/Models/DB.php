@@ -1,6 +1,6 @@
 <?php
 
-    namespace App\PHPLMS\src\Models;
+    namespace App\PHPLMS\Models;
 
     class DB {
         public $con;

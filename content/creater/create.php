@@ -1,13 +1,13 @@
 <?php
 
-    use App\PHPLMS\src\Controller\BarcodeGeneratorController;
-    include '../../src/Controller/BarcodeGeneratorController.php';
+    use App\PHPLMS\src\Controller\BarcodeController;
+    include '../../src/Controller/BarcodeController.php';
 
     if (!file_exists('C:\Users\matteo.grado\Ampps\www\Workspace\PHP-Lager-Management-System\src\Controller\BarcodeGeneratorController.php')) {
         echo "File not found!";
     }
 
-    $generator = new BarcodeGeneratorController();
+    $generator = new BarcodeController();
 ?>
 <!doctype html>
 <html lang="en">

@@ -1,6 +1,6 @@
 <?php
 
-    use App\PHPLMS\src\Controller\BarcodeGeneratorController;
+    use App\PHPLMS\src\Controller\BarcodeController;
     use App\PHPLMS\src\Models\DB;
 
     if (isset($_POST['submit'])) {
