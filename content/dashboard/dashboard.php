@@ -11,16 +11,16 @@
 <body>
     <nav class="navbar">
         <h1 class="header">
-            <a href="#">Lager Übersicht</a>
+            <a href="dashboard.php">Lager Übersicht</a>
         </h1>
         <div class="button-bar">
-            <a href="#" class="btn0">CScannen</a>
-            <a href="../generate/create.php" class="btn1">Codes Erstellen</a>
+            <a href="../scanner/scan.php" class="btn0">Scannen</a>
+            <a href="../generate/generate.php" class="btn1">Codes Erstellen</a>
             <a href="#" class="btn2">Logout</a>
         </div>
     </nav>
     <div class="table">
-        //Build in overview of data in a table
+
     </div>
 </body>
 </html>

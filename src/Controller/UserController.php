@@ -38,5 +38,6 @@
                 echo "Passwort falsch!";
             }
             echo "Success";
+            header("Location: index.php?=>dashboard");
         }
     }
