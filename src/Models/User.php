@@ -17,6 +17,4 @@
             $this->email = $email;
         }
 
-        ‚
-
     }
