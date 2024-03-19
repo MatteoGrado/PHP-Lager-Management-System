@@ -22,4 +22,10 @@
         case 'dashboard':
             include('../content/dashboard/dashboard.php');
             break;
+        case 'scan':
+            include('../content/scanner/scan.php');
+            break;
+        case 'generate':
+            include('../content/generate/generate.php');
+            break;
     }

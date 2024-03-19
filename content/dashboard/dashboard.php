@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP-LMS/dashboard</title>
-    <link rel="stylesheet" href="../../public/assets/css/dashboard/style.css">
+    <link rel="stylesheet" href="assets/css/dashboard/style.css">
 </head>
 <body>
     <nav class="navbar">
@@ -14,13 +14,22 @@
             <a href="dashboard.php">Lager Übersicht</a>
         </h1>
         <div class="button-bar">
-            <a href="../scanner/scan.php" class="btn0">Scannen</a>
-            <a href="../generate/generate.php" class="btn1">Codes Erstellen</a>
-            <a href="#" class="btn2">Logout</a>
+            <button type="submit" class="btn0" name="scan">Scannen</button>
+            <button type="submit" class="btn1" name="create">Code Erstellen</button>
+            <button type="submit" class="btn2" name="logout">Logout</button>
         </div>
     </nav>
-    <div class="table">
-
-    </div>
 </body>
 </html>
+<?php
+
+    if (isset($_POST['scan'])) {
+        header("Location: index.php?page=scan");
+    }
+    if (isset($_POST['create'])) {
+        header("Location: index.php?page=generate");
+    }
+    if (isset($_POST['logout'])) {
+        header("Location: index.php?page=login");
+        session_destroy();
+    }

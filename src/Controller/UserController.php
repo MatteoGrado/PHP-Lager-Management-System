@@ -37,7 +37,6 @@
             if(!empty($userDataDB) && password_verify($password, $userDataDB['password'])) {
                 echo "Passwort falsch!";
             }
-            echo "Success";
-            header("Location: index.php?=>dashboard");
+            header("Location: index.php?page=dashboard");
         }
     }
