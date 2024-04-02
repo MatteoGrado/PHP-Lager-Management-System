@@ -19,17 +19,6 @@
             <button type="submit" class="btn2" name="logout">Logout</button>
         </div>
     </nav>
+
 </body>
 </html>
-<?php
-
-    if (isset($_POST['scan'])) {
-        header("Location: index.php?page=scan");
-    }
-    if (isset($_POST['create'])) {
-        header("Location: index.php?page=generate");
-    }
-    if (isset($_POST['logout'])) {
-        header("Location: index.php?page=login");
-        session_destroy();
-    }

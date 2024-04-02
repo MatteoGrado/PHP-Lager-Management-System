@@ -1,0 +1,8 @@
+# Features:
+
+    - Login/Register/Logout
+    - Scan/Create-Barcode
+    - User/Admin
+    - HR-Side
+    - Finance-Side
+    - More...
