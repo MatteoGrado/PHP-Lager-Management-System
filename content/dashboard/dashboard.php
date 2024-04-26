@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar">
         <h1 class="header">
-            <a href="dashboard.php">Lager Übersicht</a>
+            <a href="#">Lager Übersicht</a>
         </h1>
         <div class="button-bar">
             <button type="submit" class="btn0" name="scan">Scannen</button>
@@ -19,6 +19,5 @@
             <button type="submit" class="btn2" name="logout">Logout</button>
         </div>
     </nav>
-
 </body>
 </html>

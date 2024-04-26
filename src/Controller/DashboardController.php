@@ -1,6 +1,6 @@
 <?php
 
-    namespace App\PHPLMS\src\Controller;
+    namespace App\PHPLMS\Controller;
 
     use App\PHPLMS\Models\DB;
 
@@ -16,12 +16,9 @@
             $this->product_storage_count = $product_storage_count;
             $this->product_price = $product_price;
         }
-
-        public function dataRequest($row, $data, $product_id, $product_name, $product_storage_count, $product_price) {
+        public function dataRequester($row, $data, $product_id, $product_name, $product_storage_count, $product_price) {
             $db = new DB("localhost", "Admin", "Sumafelo03!", "php_lms");
-
             $sql = "SELECT product_num FROM products";
-
             foreach ($db->con->query($sql) as $row) {
                 $row = $data
                 ([
@@ -33,6 +30,4 @@
             }
             return $data;
         }
-
-
     }

@@ -1,8 +1,8 @@
 <?php
 
-    namespace App\PHPLMS\src\Controller;
+    namespace App\PHPLMS\Controller;
 
-    use App\PHPLMS\src\Models\DB;
+    use App\PHPLMS\Models\DB;
     use Picqer\Barcode\BarcodeGeneratorJPG;
 
     class BarcodeController {
