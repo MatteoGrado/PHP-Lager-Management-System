@@ -18,7 +18,7 @@
             }
         } */
         public function register($username, $password) {
-            $db = new DB("localhost", "Admin", "Sumafelo03!", "php_lms");
+            $db = new DB("127.0.0.1", "Admin", "Sumafelo03!", "php_lms");
             $isql = "INSERT INTO `users` (`user_id`, `username`, `password`, 'first_name', 'last_name',  'email')
                     VALUES (NULL, :username, :password)";
             $stmt = $db->con->prepare($isql);
@@ -26,7 +26,7 @@
             $stmt->execute([':username' => $username, ':password' => $password]);
         }
         public function login($username, $password) {
-            $db = new DB("localhost", "Admin", "Sumafelo03!", "php_lms");
+            $db = new DB("127.0.0.1", "Admin", "Sumafelo03!", "php_lms");
             $ssql = "SELECT `username`, `password` FROM `users` WHERE `username` = :username";
             $stmt = $db->con->prepare($ssql);
             $stmt->execute([':username' => $username]);

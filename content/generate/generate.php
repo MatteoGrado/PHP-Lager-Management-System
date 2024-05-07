@@ -1,16 +1,3 @@
-<?php
-
-    use App\PHPLMS\src\Controller\BarcodeController;
-    use App\PHPLMS\src\Models\DB;
-
-    if (isset($_POST['submit'])) {
-        if (!empty('product_num') && !empty('barcode_type')) {
-            $product_num = $_POST['product_num'];
-            $barcode_type = $_POST['barcode_type'];
-            //Call the Barcode Generator
-        }
-    }
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP-LMS.de/Barcode-Generieren/</title>
-    <link rel="stylesheet" href="../../public/assets/css/create/style.css">
+    <link rel="stylesheet" href="assets/css/create/style.css?t=<?=time()?>">
 </head>
 <body>
     <nav class="navbar">

@@ -1,4 +1,4 @@
-body {
+åbody {
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body {
     flex-direction: row;
     width: 100%;
     height: 80px;
-    background-color: #333;
+    background-color: black;
 }
 
 .header {
@@ -24,59 +24,60 @@ body {
     color: white;
 }
 
-.button-bar {
+.nav-form-buttons {
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    margin-left: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    gap: 25px;
+    margin-left: 300px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .btn0 {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 150px;
-    height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
+    font-size: 20pt;
+    font-weight: bolder;
+    width: 250px;
+    height: 35px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 2px;
-    cursor: pointer;
-    text-decoration: none;
 }
+
 .btn1 {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 250px;
-    height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    background-color: greenyellow;
+    font-size: 20pt;
+    font-weight: bolder;
+    width: 250px;
+    height: 35px;
+    background-color: green;
     color: black;
     border: none;
     border-radius: 2px;
-    cursor: pointer;
-    text-decoration: none;
 }
+
 .btn2 {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 150px;
-    height: 25px;
     font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
+    font-size: 20pt;
+    font-weight: bolder;
+    width: 250px;
+    height: 35px;
     background-color: blue;
     color: white;
+    margin-left: 150px;
     border: none;
     border-radius: 2px;
-    cursor: pointer;
-    text-decoration: none;
 }
