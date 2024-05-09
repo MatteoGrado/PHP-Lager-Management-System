@@ -7,11 +7,6 @@
             "App\\PHPLMS\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\PHPLMS\\": "tests/"
-        }
-    },
     "authors": [
         {
             "name": "Matteo Grado",

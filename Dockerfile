@@ -1,8 +1,7 @@
-# Use the official PHP Apache image with PHP 8.3
 FROM php:8.3-apache
 
-# Copy your PHP application files into the container
-COPY ./src/ /var/www/html/
+ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 
-# Expose port 80 to the outside world
-EXPOSE 80
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
+
+EXPOSE 8000
