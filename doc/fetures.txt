@@ -1,8 +1,23 @@
-# Features:
+d# Features:
 
     - Login/Register/Logout
     - Scan/Create-Barcode
-    - User/Admin
-    - HR-Side
+    - User/Admin-Trennung
+    - Personalverwaltung
+        - Worker-Payment
+        - Recruite new worker
+        - Fire and Delete workers
     - Finance-Side
-    - More...
+        - Statistics
+        - Inventroy-Access
+        - Bilanz
+        - Finance-System
+            - Pay-Money
+            - Receve-Money
+    - Bank Account
+        - For Finance transactions
+    - Ticket-System for all Departments
+        - New Ticker
+        - Ticket status
+        - Ticket Fiished
+    - Support

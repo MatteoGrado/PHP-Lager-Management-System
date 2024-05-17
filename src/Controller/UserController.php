@@ -5,18 +5,6 @@
     use App\PHPLMS\Models\DB;
 
     class  UserController {
-        /* public function controller() {
-            $db = new DB("localhost", "Admin", "Sumafelo03!", "php_lms");
-            if (isset($_POST['submit'])) {
-                session_start();
-                if ($this->login($_POST['username'], $_POST['password'])) {
-                    //session set user_id for remember-me
-                    echo "Set session!";
-                } else {
-                    echo "Failed to Login!";
-                }
-            }
-        } */
         public function register($username, $password) {
             $db = new DB("127.0.0.1", "Admin", "Sumafelo03!", "php_lms");
             $isql = "INSERT INTO `users` (`user_id`, `username`, `password`, 'first_name', 'last_name',  'email')
